@@ -1,8 +1,10 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <title>阻止拖动</title>
+      <title>拖拽效果</title>
+      <meta name="keyword" content="拖拽，放置，返回" />
+      <meta name="description" content="拖拽效果实现，拖拽效果demo" />
       <style type="text/css">
           .hand {
             cursor: pointer;
@@ -65,11 +67,11 @@
                -moz-background-clip: padding;
                     background-clip: padding-box;
           }
-          .file-move span{
+          .file-move span {
             margin: 5px 3px 0px 8px;
           }
       </style>
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
+      <script src="js/jquery-1.11.0.js" type="text/javascript"></script>
     </head>
     <body>
       <div class="main-box">
@@ -132,5 +134,4 @@
             <div class="popover-content">里面可以随意显示些东西</div>
         </div>
     </body>
-
 </html>
